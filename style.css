@@ -1,0 +1,85 @@
+body{
+	background-color: #FFF;
+}
+
+h1{
+	color: #717071;
+	text-align: center;
+	margin: 0 0 20px 0;
+}
+
+a{
+	color:#F661FF;
+	transition-property: all;
+	transition: 0.3s linear;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #E9C0D3;
+}
+
+#container{
+	background-color: #F4F4E8;
+	background-image: url("image/texture3.png");
+	background-repeat : repeat;
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px;
+	
+}
+
+img.top{
+	width: 350px;
+	display: block;
+	margin: 30px auto;
+}
+
+#main{
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.box{
+	width: 300px;
+	float: left;
+	margin: 0px 15px 30px 15px;
+
+	position: relative;
+	padding: 8px 10px 10px 10px;
+	border: 1px solid #ccc;
+	-webkit-box-shadow: 3px 3px 3px #ccc;
+	   -moz-box-shadow: 3px 3px 3px #ccc;
+	        box-shadow: 3px 3px 3px #ccc;
+	/* IE */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#cccccc,direction=135,strength=3,enabled=true)";
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=#cccccc,direction=135,strength=3,enabled=true); /* IE5.5+ */
+	background: #fff;
+}
+
+p.title{
+	font-size: 18px;
+	color: #717071;
+	text-align: center;
+}
+
+img.thumb{
+	display: inline-block;
+    background-color: #ccc;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ccc;
+    background-size: cover;
+}
+
+#footer{
+	background-color: #E9CFD3;
+}
+
+img.footer{
+	width: 100%;
+}
+
