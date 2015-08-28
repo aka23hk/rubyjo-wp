@@ -146,6 +146,7 @@ strong{
 #footer{
 	position: relative;
 	margin-top: 30px;
+	background-color: #E9CFD3;
 }
 
 #footer-image{
@@ -165,11 +166,13 @@ strong{
 
 #footer-text{
 	font-size: 12px;
-	background-color: #E9CFD3;
+	
 	color: #717071;
 	padding: 20px;
 	z-index: 0;
 	position: relative;
+	width: 960px;
+	margin: 0 auto;
 }
 
 #footer-text a{
@@ -188,9 +191,14 @@ strong{
 	margin: 0;
 }
 
+#footer img#logo{
+	height: 90px;
+	margin-bottom: 10px;
+}
 
 
 
+/*スマホ用作り途中です
 @media screen and (max-width: 480px) {
 
 img.top{
@@ -199,7 +207,7 @@ img.top{
 	margin: 30px auto;
 }
 
-/*single*/
+
 #single h1{
 	font-size: 18px;
 	margin: 10px;
@@ -229,3 +237,4 @@ img.top{
 	margin: 10px;
 }
 }
+*/
