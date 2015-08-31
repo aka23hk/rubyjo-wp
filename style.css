@@ -18,7 +18,19 @@ img.top{
 }
 
 /*main*/
-h1{
+
+#main{
+	background-color: #F4F4E8;
+	background-image: url(image/texture3.png);
+	background-repeat : repeat;
+	width: 80%;
+	max-width: 640px;
+	margin-left: 300px;
+	padding: 50px 30px 70px 30px;
+
+}
+
+#main h1{
 	font-size: 20px;
 	color: #717071;
 	margin: 10px 40px;
@@ -31,29 +43,18 @@ h1{
     text-shadow:0px -1px  1px rgba(0, 0, 0, .4), 0px 1px #fff;
 }
 
-h2{
+#main h2{
 	font-size: 16px;
 	color: #EC799D;
 	margin: 0 40px;
 	text-shadow:0px -1px  1px rgba(0, 0, 0, .2), 0px 1px #fff;
 }
 
-h3{
+#main h3{
 	font-size: 18px;
 	color: #EF8FAD;
 	margin: 10px 40px;
 	text-shadow:0px -1px  1px rgba(0, 0, 0, .2), 0px 1px #fff;
-}
-
-#main{
-	background-color: #F4F4E8;
-	background-image: url(image/texture3.png);
-	background-repeat : repeat;
-	width: 80%;
-	max-width: 640px;
-	margin-left: 300px;
-	padding: 50px 30px 70px 30px;
-
 }
 
 #main p{
@@ -73,16 +74,16 @@ h3{
 	color: #EF8FAD;
 }
 
-#social{
+#main #social{
 	float: right;
 	margin-right: 40px;
 }
 
-strong{
+#main strong{
   background: linear-gradient(transparent 30%, #fbd 30%);
 }
 
-.line{
+#main .line{
 	border-bottom: 4px dashed #FFF;
 	margin: 20px 40px;
 }
@@ -141,6 +142,8 @@ strong{
 #sidebar .caption a:hover{
 	color: #e54c7c;
 }
+
+
 /*footer*/
 
 #footer{
@@ -166,7 +169,6 @@ strong{
 
 #footer-text{
 	font-size: 12px;
-	
 	color: #717071;
 	padding: 20px;
 	z-index: 0;
@@ -198,7 +200,7 @@ strong{
 
 
 
-/*スマホ用作り途中です
+
 @media screen and (max-width: 480px) {
 
 img.top{
@@ -207,34 +209,71 @@ img.top{
 	margin: 30px auto;
 }
 
+#container{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
 
-#single h1{
+/*main*/
+
+#main{
+	width: 85%;
+	max-width: 100%;
+	margin: 0 auto;
+
+}
+#main h1{
 	font-size: 18px;
 	margin: 10px;
 }
 
-#single h2{
+#main h2{
 	font-size: 16px;
 	margin: 0 10px;
 }
 
-#single #container{
-	padding: 30px 20px;
+#main h3{
+	margin: 10px;
 }
 
-#single #main p{
+#main p{
 	font-size: 14px;
 	margin: 0 10px; 
 }
 
-#single #social{
+#main #social{
 	float: right;
 	margin-right: 20px;
 }
 
-.line{
+#main .line{
 	border-bottom: 4px dashed #FFF;
 	margin: 10px;
 }
+
+/*sidebar*/
+
+#sidebar{
+	display: none;
 }
-*/
+
+ハンバーガーにする
+
+/*footer*/
+#footer{
+	width: 100%;
+	折り返しさせる
+}
+
+#footer-image{
+	height: 110px;
+	width: 160px;
+	bottom: 60px;
+}
+#footer img#logo{
+	height: 70px;
+	margin-bottom: 5px;
+}
+
+}
