@@ -23,11 +23,10 @@ img.top{
 	background-color: #F4F4E8;
 	background-image: url(image/texture3.png);
 	background-repeat : repeat;
-	width: 80%;
-	max-width: 640px;
-	margin-left: 300px;
+	width: 600px;
+	float: right;
+	margin: 0 0 30px 50px; 
 	padding: 50px 30px 70px 30px;
-
 }
 
 #main h1{
@@ -99,6 +98,7 @@ img.top{
 	left: 0;
 	top: 0;
 	width: 250px;
+	float: left;
 	padding: 20px 12px 20px 15px; 
 }
 
@@ -120,7 +120,7 @@ img.top{
 	text-decoration: none;
 }
 
-#single .title-link a:hover{
+.title-link a:hover{
 	color: #EF8FAD;
 }
 
@@ -147,9 +147,8 @@ img.top{
 /*footer*/
 
 #footer{
-	position: relative;
-	margin-top: 30px;
 	background-color: #E9CFD3;
+	clear: both;  
 }
 
 #footer-image{
@@ -161,8 +160,8 @@ img.top{
 	background-position: right bottom;
 	z-index: 1;
 	position: fixed;
-	bottom: 20px;
-	right: 20px;
+	bottom: 30px;
+	right: 30px;
 	cursor: pointer;
 }
 
@@ -201,7 +200,7 @@ img.top{
 
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
 
 img.top{
 	width: 250px;
@@ -218,11 +217,11 @@ img.top{
 /*main*/
 
 #main{
-	width: 85%;
-	max-width: 100%;
+	width: 80%;
 	margin: 0 auto;
-
+	float解除
 }
+
 #main h1{
 	font-size: 18px;
 	margin: 10px;
@@ -263,7 +262,6 @@ img.top{
 /*footer*/
 #footer{
 	width: 100%;
-	折り返しさせる
 }
 
 #footer-image{
@@ -271,9 +269,14 @@ img.top{
 	width: 160px;
 	bottom: 60px;
 }
+
 #footer img#logo{
 	height: 70px;
 	margin-bottom: 5px;
+}
+
+#footer-text p{
+	折り返しできない
 }
 
 }
