@@ -26,7 +26,7 @@ img.top{
 	width: 600px;
 	float: right;
 	margin: 0 0 30px 50px; 
-	padding: 50px 30px 70px 30px;
+	padding: 50px 30px;
 }
 
 #main h1{
@@ -56,6 +56,18 @@ img.top{
 	text-shadow:0px -1px  1px rgba(0, 0, 0, .2), 0px 1px #fff;
 }
 
+.space{
+	position:relative;
+	height: 30px;
+	margin: 50px -30px 0 -30px;
+	padding: 5px;
+	border-top: 1px dashed #aaa;
+	border-bottom: 1px dashed #aaa;
+	background: #FFF;
+	box-shadow:	0 5px 4px -4px rgba(0,0,0,0.3) inset;
+}
+
+
 #main p{
 	font-size: 16px;
 	color: #717071;
@@ -71,6 +83,10 @@ img.top{
 
 #main a:hover{
 	color: #EF8FAD;
+}
+
+#main img{
+	max-width: 100%;
 }
 
 #main #social{
@@ -211,34 +227,35 @@ img.top{
 #container{
 	width: 100%;
 	margin: 0 auto;
-	padding: 0;
+	padding: 0
 }
 
 /*main*/
 
 #main{
-	width: 80%;
+	width: 95%;
 	margin: 0 auto;
+	position: relative;
 	float解除
 }
 
 #main h1{
 	font-size: 18px;
-	margin: 10px;
+	margin: 8px;
 }
 
 #main h2{
 	font-size: 16px;
-	margin: 0 10px;
+	margin: 0 8px;
 }
 
 #main h3{
-	margin: 10px;
+	margin: 8px;
 }
 
 #main p{
 	font-size: 14px;
-	margin: 0 10px; 
+	margin: 0 8px; 
 }
 
 #main #social{
@@ -248,7 +265,7 @@ img.top{
 
 #main .line{
 	border-bottom: 4px dashed #FFF;
-	margin: 10px;
+	margin: 8px;
 }
 
 /*sidebar*/
@@ -262,6 +279,7 @@ img.top{
 /*footer*/
 #footer{
 	width: 100%;
+	position: absolute;
 }
 
 #footer-image{
